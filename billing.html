@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Billing</title>
+
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, sans-serif;
+            background: linear-gradient(135deg, #e0e7ff, #f8fafc);
+            margin: 0;
+            padding: 0;
+        }
+
+        .form-container {
+            max-width: 480px;
+            background: white;
+            margin: 60px auto;
+            padding: 30px 35px;
+            border-radius: 15px;
+            box-shadow: 0 12px 28px rgba(0,0,0,0.15);
+        }
+
+        h2 {
+            text-align: center;
+            color: #1e3a8a;
+            margin-bottom: 25px;
+        }
+
+        label {
+            display: block;
+            font-weight: 600;
+            margin-bottom: 6px;
+            color: #333;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px 12px;
+            border-radius: 8px;
+            border: 1px solid #cbd5e1;
+            font-size: 15px;
+            outline: none;
+            transition: 0.3s;
+        }
+
+        input:focus {
+            border-color: #2563eb;
+            box-shadow: 0 0 6px rgba(37,99,235,0.4);
+        }
+
+        .btn {
+            width: 100%;
+            background: linear-gradient(135deg, #1e3a8a, #2563eb);
+            color: white;
+            border: none;
+            padding: 12px;
+            font-size: 16px;
+            border-radius: 10px;
+            cursor: pointer;
+            margin-top: 18px;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 15px rgba(37,99,235,0.4);
+        }
+
+        .back-link {
+            display: block;
+            text-align: center;
+            margin-top: 18px;
+            text-decoration: none;
+            font-weight: bold;
+            color: #1e3a8a;
+        }
+
+        .back-link:hover {
+            text-decoration: underline;
+        }
+
+        .note {
+            text-align: center;
+            font-size: 13px;
+            color: #555;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="form-container">
+        <h2>💳 Generate Bill</h2>
+
+        <form>
+            <label>Customer Name</label>
+            <input type="text" placeholder="Enter customer name">
+
+            <br><br>
+
+            <label>Vehicle Number</label>
+            <input type="text" placeholder="KL-00-AB-1234">
+
+            <br><br>
+
+            <label>Service Charges (₹)</label>
+            <input type="number" placeholder="Enter service charges">
+
+            <br><br>
+
+            <label>Spare Parts Cost (₹)</label>
+            <input type="number" placeholder="Enter spare parts cost">
+
+            <br><br>
+
+            <label>Tax (%)</label>
+            <input type="number" placeholder="Enter tax percentage">
+
+            <input type="submit" value="Generate Bill" class="btn">
+        </form>
+
+        <div class="n

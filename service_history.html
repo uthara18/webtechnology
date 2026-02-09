@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Service History</title>
+
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, sans-serif;
+            background: linear-gradient(135deg, #e0e7ff, #f8fafc);
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 900px;
+            background: white;
+            margin: 60px auto;
+            padding: 30px 35px;
+            border-radius: 15px;
+            box-shadow: 0 12px 28px rgba(0,0,0,0.15);
+        }
+
+        h2 {
+            text-align: center;
+            color: #1e3a8a;
+            margin-bottom: 25px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            overflow: hidden;
+            border-radius: 12px;
+        }
+
+        th, td {
+            padding: 14px;
+            text-align: center;
+        }
+
+        th {
+            background: linear-gradient(135deg, #1e3a8a, #2563eb);
+            color: white;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+        }
+
+        td {
+            border-bottom: 1px solid #e5e7eb;
+            color: #333;
+        }
+
+        tr:hover td {
+            background-color: #eef2ff;
+        }
+
+        tr:last-child td {
+            border-bottom: none;
+        }
+
+        .back-link {
+            display: block;
+            text-align: center;
+            margin-top: 20px;
+            text-decoration: none;
+            font-weight: bold;
+            color: #1e3a8a;
+        }
+
+        .back-link:hover {
+            text-decoration: underline;
+        }
+
+        .empty-note {
+            text-align: center;
+            margin-top: 15px;
+            color: #555;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <h2>📜 Vehicle Service History</h2>
+
+        <table>
+            <tr>
+                <th>Vehicle No</th>
+                <th>Customer</th>
+                <th>Service Date</th>
+                <th>Service Type</th>
+            </tr>
+            <tr>
+                <td>KL08AQ8438</td>
+                <td>Jayan</td>
+                <td>12-01-2026</td>
+                <td>Oil Change</td>
+            </tr>
+        </table>
+
+        <div class="empty-note">
+            * More service records will appear here
+        </div>
+
+        <a href="index.html" class="back-link">⬅ Back to Dashboard</a>
+    </div>
+
+</body>
+</html>

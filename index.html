@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Vehicle Service Center</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: #f2f6fc;
+        }
+
+        header {
+            background: #1e3a8a;
+            color: white;
+            padding: 20px;
+            position: relative;
+            text-align: center;
+        }
+
+        /* Logo Image */
+        .logo {
+            position: absolute;
+            left: 20px;
+            top: 50%;
+            transform: translateY(-50%);
+            height: 100px;
+            width: 100px;
+            border-radius: 20px;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        header p {
+            margin: 8px 0 15px;
+        }
+
+        .header-btn {
+            display: inline-block;
+            padding: 10px 18px;
+            background: white;
+            color: #1e3a8a;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 14px;
+            transition: 0.3s;
+        }
+
+        .header-btn:hover {
+            background: #e0e7ff;
+            transform: scale(1.05);
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+            padding: 40px;
+        }
+
+        .card {
+            background: white;
+            padding: 30px;
+            text-align: center;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+        .card a {
+            text-decoration: none;
+            color: #1e3a8a;
+            font-size: 18px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <!-- Added Image Logo -->
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiIWtZ5bzAXZkwG-_DF22uhuf62nV7Uu18Cw&s" class="logo">
+
+    <h1>Vehicle Service Center Management</h1>
+    <p>Dashboard</p>
+</header>
+
+<div class="container">
+    <div class="card"><a href="add_customer.html">Add Customer</a></div>
+    <div class="card"><a href="add_vehicle.html">Add Vehicle</a></div>
+    <div class="card"><a href="service_booking.html">Service Booking</a></div>
+    <div class="card"><a href="billing.html">Billing</a></div>
+    <div class="card"><a href="service_history.html">Service History</a></div>
+    <div class="card"><a href="contact.html">Contact Us</a></div>
+</div>
+
+</body>
+</html>

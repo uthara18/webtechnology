@@ -1,0 +1,183 @@
+<!doctype html>
+<html>
+<head>
+<title>Jan Session 28-01-26 Timetable</title>
+
+<style>
+/* Center everything vertically */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Heading style */
+h1 {
+    color: red;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    
+}
+
+/* Table style */
+table {
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* Cell styling */
+th, td {
+    border: 1px solid #999;
+    padding: 8px 10px;
+    text-align: center;
+    transition: background-color 0.2s;
+}
+
+/* Header row */
+thead th {
+    background-color: #4a69bd;
+    color: white;
+}
+
+/* Day column */
+tbody td:first-child {
+    font-weight: bold;
+    background-color: #f7f7f7;
+}
+
+/* Hover effect */
+tbody td:hover {
+    background-color: #ffeaa7;
+    cursor: pointer;
+}
+
+/* Break & Lunch cells */
+td[rowspan] {
+    background-color: #fab1a0;
+    font-weight: bold;
+}
+
+/* Link container aligned right */
+.link-box {
+    width: 100%;
+    text-align: right;
+    margin-top: 10px;
+    padding-right: 20px;
+}
+
+/* Styled link */
+.link-box a {
+    background-color: #4a69bd;
+    color: white;
+    padding: 8px 12px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.link-box a:hover {
+    background-color:rgb(0, 68, 255);
+}
+</style>
+</head>
+
+<body>
+
+<h1><marquee direction="right">Time Table</marquee></h1>
+
+<table cellpadding="5">
+    <thead>
+        <tr>
+            <th>Year/Sem/Sec</th>
+            <th>II/IV - A</th>
+            <th colspan="3">Program : CSE-Gen</th>
+            <th>Room no:</th>
+            <th>211</th>
+            <th>Class Teacher:</th>
+            <th>Prof. Agashini Ma'am</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <td>Day/time</td>
+            <td>8:45AM-9:45AM</td>
+            <td>9:45AM-10:45AM</td>
+
+            <td rowspan="7" style="writing-mode: vertical-rl; text-align:center;">
+                Break (10:45 AM - 11:00 AM)
+            </td>
+
+            <td>11:00AM-12:00PM</td>
+            <td>12:00PM-1:00PM</td>
+
+            <td rowspan="7" style="writing-mode: vertical-rl; text-align:center;">
+                Lunch Break (1:00 PM - 2:00 PM)
+            </td>
+
+            <td>2:00PM-3:00PM</td>
+            <td>3:00PM-3:45PM</td>
+        </tr>
+
+        <tr>
+            <td>Monday</td>
+            <td>DCN</td>
+            <td>DAA</td>
+            <td>Library</td>
+            <td>OE 1</td>
+            <td colspan="2">WT - LAB 221B</td>
+        </tr>
+
+        <tr>
+            <td>Tuesday</td>
+            <td colspan="2">OE 1</td>
+            <td>DCN</td>
+            <td>TOC</td>
+            <td colspan="2">DAA - LAB 318A</td>
+        </tr>
+
+        <tr>
+            <td>Wednesday</td>
+            <td>DAA</td>
+            <td>TOC</td>
+            <td>TDPCL</td>
+            <td>E-Learning</td>
+            <td colspan="2">WT - LAB 221B</td>
+        </tr>
+
+        <tr>
+            <td>Thursday</td>
+            <td>TOC</td>
+            <td>DCN</td>
+            <td colspan="2">P&T</td>
+            <td colspan="2">P&T</td>
+        </tr>
+
+        <tr>
+            <td>Friday</td>
+            <td colspan="2">P&T</td>
+            <td>Club Activity</td>
+            <td>Mentoring</td>
+            <td colspan="2">EE</td>
+        </tr>
+
+        <tr>
+            <td>Saturday</td>
+            <td colspan="2">Internship/PCL</td>
+            <td colspan="2">Internship/PCL</td>
+            <td colspan="2">Internship/PCL</td>
+        </tr>
+    </tbody>
+</table>
+<br>
+<br>
+<div class="link-box">
+    <a href="https://jgigroup.in/btech2026/?utm_source=Google+&utm_medium=Google+&utm_campaign=BTech_RLSA_2026&gad_source=1" target="_blank">Jain University</a>
+</div>
+
+</body>
+</html>

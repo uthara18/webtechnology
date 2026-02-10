@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Late Latif | Mini Store</title>
+
+<style>
+body{
+    margin:0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #f9f9f9;
+}
+
+/* Header */
+header{
+    background: linear-gradient(to right, #b31217, #e52d27);
+    color:white;
+    text-align:center;
+    padding:25px;
+}
+
+/* Navigation */
+nav{
+    background:#222;
+    text-align:center;
+    padding:12px;
+}
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:15px;
+    font-weight:bold;
+    transition:0.3s;
+}
+nav a:hover{
+    color:#ffcccb;
+}
+
+/* Sections */
+section{
+    padding:40px 20px;
+    text-align:center;
+}
+
+/* Product Cards */
+.products{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:25px;
+}
+
+.card{
+    background:white;
+    width:260px;
+    padding:15px;
+    border-radius:12px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+    transition:0.3s;
+}
+.card:hover{
+    transform:translateY(-5px);
+}
+
+.card img{
+    width:100%;
+    border-radius:10px;
+}
+
+button{
+    background:#28a745;
+    color:white;
+    border:none;
+    padding:8px 15px;
+    border-radius:6px;
+    cursor:pointer;
+    margin-top:10px;
+}
+button:hover{
+    background:#218838;
+}
+
+/* Form */
+form{
+    background:white;
+    max-width:400px;
+    margin:auto;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+
+input, textarea{
+    width:100%;
+    padding:8px;
+    margin:8px 0;
+    border-radius:5px;
+    border:1px solid #ccc;
+}
+
+/* Footer */
+footer{
+    background:#111;
+    color:white;
+    text-align:center;
+    padding:15px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Late Latif</h1>
+<p>Your Friendly Online Store 🛒</p>
+</header>
+
+<nav>
+<a href="#home">Home</a>
+<a href="#products">Products</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<section id="home">
+<h2>Welcome to Late Latif</h2>
+<p>Shop groceries, clothes & daily essentials at affordable prices.</p>
+</section>
+
+<section id="products">
+<h2>Featured Products</h2>
+
+<div class="products">
+
+<div class="card">
+<img src="https://via.placeholder.com/250x150">
+<h3>Premium Rice</h3>
+<p>High quality basmati rice.</p>
+<p><b>₹60/kg</b></p>
+<button>Add to Cart</button>
+</div>
+
+<div class="card">
+<img src="https://via.placeholder.com/250x150">
+<h3>Cotton Shirt</h3>
+<p>Comfortable casual wear.</p>
+<p><b>₹799</b></p>
+<button>Add to Cart</button>
+</div>
+
+<div class="card">
+<img src="https://via.placeholder.com/250x150">
+<h3>Shampoo</h3>
+<p>Fresh & smooth hair care.</p>
+<p><b>₹120</b></p>
+<button>Add to Cart</button>
+</div>
+
+</div>
+</section>
+
+<section id="contact">
+<h2>Contact Us</h2>
+<form>
+<input type="text" placeholder="Your Name" required>
+<input type="email" placeholder="Your Email">
+<textarea rows="4" placeholder="Your Message"></textarea>
+<input type="submit" value="Send Message">
+</form>
+</section>
+
+<footer>
+<p>© 2026 Late Latif | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
